@@ -1,0 +1,51 @@
+.text-block {
+	display: inline-block;
+	vertical-align: top;
+	width: 600px;
+	margin-right: 50px;
+	background-color: lightblue;
+}
+.image-block {
+	display: inline-block;
+	vertical-align: top;
+	background-color: yellow;
+}
+.text1 {
+	font-size: 78px;
+}
+.image {
+	width: 100%;
+}
+
+
+/*css Box model structure*/
+.text-wraper1 {
+/*	border-width: 2px;
+	border-style: solid;
+	border-color: red;*/
+	border: 2px solid red;
+	/*margin-top: 30px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+	margin-left: 25px;*/
+	margin: 30px 25px 30px 25px;
+
+/*	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 80px;
+	padding-left: 15px;*/
+	padding: 50px 30px 80px 15px;
+}
+.text-wraper2 {
+/*	border-width: 2px;
+	border-style: solid;
+	border-color: blue;*/
+	border: 2px solid blue;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	padding-top: 10px;
+	padding-left: 10px;
+}
